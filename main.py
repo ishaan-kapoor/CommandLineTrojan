@@ -13,7 +13,7 @@ address = gethostbyname(gethostname())
 server = r'''"""
 This is server.py
 It will enable us to communicate (send commands and receive files) with the target machine
-It works through a TCP connection on '''+address+'''
+It works through a TCP connection on ''' + address + r'''
 """
 #IMPORTS
 import os
