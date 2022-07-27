@@ -26,4 +26,4 @@ If `game.exe` is sent to multiple targets then you can control them similtaneous
   * e.g. `target_name > --sendFile path_1, path_2; dir ..\; mkdir new_dir` will execute `dir ..\` and `mkdir new_dir` in the target’s command line and will send the files `path_1` and `path_2` from the target’s system to the server’s downloads folder.
 
 
-A report on this project can be found [here](https://docs.google.com/document/d/15dVNq8ymqcAm7PgQqxlGy7CqmFVQlQaW/edit?usp=sharing&ouid=102416198277622434901&rtpof=true&sd=true)
+Please refer to `Report.docx` for a detailed explaination.
