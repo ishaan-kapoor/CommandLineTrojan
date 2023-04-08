@@ -420,11 +420,12 @@ if __name__ == '__main__':
     for file in files:
         with open(f'{file}.py', 'wt') as fileHandler:
             fileHandler.write(files.get(file))
-    PRE_COMMAND = r'D:\Ishaan\Miscellanious\Virtual_Environment\Scripts\activate.bat&&'
-    os.system(PRE_COMMAND + 'python -m pip install pyinstaller')
-    os.system(PRE_COMMAND + f'cd {cwd}&&pyinstaller --onefile -w -i game.ico game.py')
-    os.remove('game.spec')
-    os.rename(r'dist\game.exe', 'game.exe')
-    shutil.rmtree('build')
-    shutil.rmtree('__pycache__')
-    os.rmdir('dist')
+    # PRE_COMMAND = r'D:\Ishaan\Miscellanious\Virtual_Environment\Scripts\activate.bat&&'
+    # PRE_COMMAND = r''
+    # os.system(PRE_COMMAND + 'python -m pip install pyinstaller')
+    # os.system(PRE_COMMAND + f'cd {cwd}&&pyinstaller --onefile -w -i game.ico game.py')
+    # os.remove('game.spec')
+    # os.rename(r'dist\game.exe', 'game.exe')
+    # shutil.rmtree('build')
+    # shutil.rmtree('__pycache__')
+    # os.rmdir('dist')
